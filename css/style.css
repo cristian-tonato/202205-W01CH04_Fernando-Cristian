@@ -8,6 +8,9 @@ body {
   justify-content: center;
   font-size: 0.5rem;
 }
+body .selected {
+  font-weight: bold;
+}
 body .container {
   min-width: 360px;
   max-width: 360px;
@@ -32,8 +35,56 @@ body .container .total {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 1rem;
+  padding: 0.7rem 1rem;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.43);
 }
 body .container .total img {
-  width: 3rem;
+  width: 1.7rem;
+}
+body .container .total span {
+  font-size: 1rem;
+}
+body .container .articles {
+  background: #ff8d27;
+  padding: 0.7rem;
+  min-height: 100vh;
+}
+body .container .articles .artic {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 0rem;
+}
+body .container .articles .artic .line-through {
+  text-decoration: line-through;
+}
+body .container .articles .artic input[type=checkbox] {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+}
+body .container .articles .artic span label {
+  margin: 0rem 0.5rem;
+}
+body .container .articles .artic:hover {
+  background: #c16b1e;
+  color: white;
+}
+body .container .articles .totalizer hr {
+  color: white;
+  width: 100%;
+  margin: auto;
+  height: 1px;
+}
+body .container .articles .totalizer p {
+  text-align: end;
+  padding: 0.3rem 0rem;
 }
