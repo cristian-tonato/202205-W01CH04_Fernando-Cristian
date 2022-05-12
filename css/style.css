@@ -88,3 +88,32 @@ body .container .articles .totalizer p {
   text-align: end;
   padding: 0.3rem 0rem;
 }
+body h2 {
+  background-color: #ff8d27;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  font-size: medium;
+}
+body .formulario {
+  background-color: #ff8d27;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  font-size: medium;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  font-size: medium;
+}
+body .modificar {
+  background-color: #5e81d1;
+  border: none;
+  color: white;
+  height: 45px;
+  width: 70px;
+}

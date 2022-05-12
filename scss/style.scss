@@ -103,4 +103,16 @@ body{
             
         }
     }
+    @mixin theme($theme:#ff8d27) {         
+        background-color: $theme;         display: flex;   align-items: center;   justify-content: space-between;   padding: 0rem 1rem;   font-size: medium; 
+    } 
+    h2{     
+        @include theme; 
+    } 
+    .formulario{     
+        @include theme;     height: 200px;   display: flex;   align-items: center;   justify-content: space-between;   padding: 0rem 1rem;   font-size: medium; 
+    } 
+    .modificar{     
+        background-color:#5e81d1;     border: none;   color: white;   height: 45px;   width: 70px; 
+    };
 }
