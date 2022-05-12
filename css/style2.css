@@ -37,3 +37,35 @@ body .container .total {
 body .container .total img {
   width: 3rem;
 }
+
+h2 {
+  background-color: #ff8d27;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  font-size: medium;
+}
+
+.formulario {
+  background-color: #ff8d27;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  font-size: medium;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  font-size: medium;
+}
+
+.modificar {
+  background-color: #5e81d1;
+  border: none;
+  color: white;
+  height: 45px;
+  width: 70px;
+}
