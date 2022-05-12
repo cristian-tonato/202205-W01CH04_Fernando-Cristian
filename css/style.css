@@ -11,14 +11,29 @@ body {
 body .container {
   min-width: 360px;
   max-width: 360px;
-  border: 1px solid #5e81d1;
 }
 body .container header {
   display: flex;
   justify-content: space-between;
+  background: #5e81d1;
+  align-items: center;
+  padding: 1rem 0.4rem;
 }
 body .container header nav ul {
   display: flex;
   justify-content: end;
   list-style: none;
+}
+body .container header nav ul li {
+  padding: 0.6rem;
+}
+body .container .total {
+  background: #f87500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+body .container .total img {
+  width: 3rem;
 }

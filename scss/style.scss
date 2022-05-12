@@ -12,17 +12,32 @@ body{
     .container{
         min-width: 360px;
         max-width: 360px;
-        border: 1px solid $primary-color;
         header{
             display: flex;
-                justify-content: space-between;
+            justify-content: space-between;
+            background: $primary-color;
+            align-items: center;
+            padding: 1rem 0.4rem;
             nav{
                 
                 ul{
                     display: flex;
-                    justify-content:end;
+                    justify-content: end;
                     list-style: none;
+                    li{
+                        padding: 0.6rem;
+                    }
                 }
+            }
+        }
+        .total{
+            background: $secondary-color;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0rem 1rem;
+            img{
+                width: 3rem;
             }
         }
     }
